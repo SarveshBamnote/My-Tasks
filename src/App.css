@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.task-form {
+  width: 40%;
+  padding: 60px;
+  background-color: #131213;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: #f3aa4e;
+  font-size: 48px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.label {
+  color: #f1f5f9;
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 40px;
+  color: #323f4b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.add-button {
+  color: #f1f5f9;
+  background-color: #f3aa4e;
+  font-size: 18px;
+  font-family: 'Roboto';
+  width: 120px;
+  height: 40px;
+  align-self: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tags-tasks-container {
+  width: 60%;
+  padding: 60px;
+  background-color: #000000;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.no-tasks {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  margin-top: 120px;
+  text-align: center;
+}
+
+.tasks-lists {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}

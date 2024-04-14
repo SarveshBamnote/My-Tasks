@@ -1,0 +1,18 @@
+.tags-list-item {
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+.tags-buttons {
+  color: #f1f5f9;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 18px;
+  padding: 6px 14px 6px 14px;
+  cursor: pointer;
+}
+
+.active-btn {
+  background-color: #f3aa4e;
+}
